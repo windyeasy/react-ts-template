@@ -1,5 +1,5 @@
 {
-  "name": "ts-react-template",
+  "name": "react-ts-template",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -32,6 +32,7 @@
     "eject": "react-scripts eject",
     "prettier": "prettier --write .",
     "prepare": "husky install",
+    "commit": "cz",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "eslintConfig": {
