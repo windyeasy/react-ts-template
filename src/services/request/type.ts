@@ -5,10 +5,7 @@ import type {
   InternalAxiosRequestConfig
 } from 'axios'
 
-export interface InterceptorsType<
-  T = AxiosResponse,
-  RT = InternalAxiosRequestConfig
-> {
+export interface InterceptorsType<T = AxiosResponse, RT = InternalAxiosRequestConfig> {
   requestSuccessFn?: (config: RT) => RT
   requestErrFn?: (err: any) => any
   responseSuccessFn?: (config: T) => T
