@@ -1,6 +1,20 @@
-# react+typescript 项目实战
+# react-ts-template
 
-react+ts实战，网易云项目开发，实现了网易的一些核心功能使用，pnpm作包管理器
+React+TS项目模板，用于在使用的时不用重新搭建项目
+
+## 提交方法
+
+- 方法一：
+
+```shell
+pnpm run commit
+```
+
+- 方法二：提交时直接使用规范的格式
+
+```shell
+git commit -m "feat: 添加一个新特性"
+```
 
 ## 运行
 
